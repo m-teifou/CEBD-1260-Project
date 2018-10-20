@@ -1,3 +1,3 @@
 FROM python:3
-ADD
-CMD []
+ADD /code
+CMD ["python", "/code/"]
